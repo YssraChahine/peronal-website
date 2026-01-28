@@ -1,0 +1,19 @@
+body{
+    background: conic-gradient(from 135deg, #0f2027, #0f0f1a, #1f1c2c);    
+    color: white;
+}
+
+.nav {
+    position: fixed;
+    right: 5px;
+    top: 25px;
+}
+
+#image{
+    width: 20%;
+    border-radius: 20px;
+}
+
+#image:hover{
+     box-shadow: 4px 4px 5px 5px rgba(135, 207, 235, 0.424);
+}
