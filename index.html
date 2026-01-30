@@ -12,20 +12,23 @@
     <header>
 
       <h1>Yssra Chahine</h1>
+      <figure>
+         <img id="image" src="https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg" alt="Desk Setup with laptop, notebook and coffee">
+        <figcaption>
+         My workspace
+        </figcaption>
+      </figure>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#contact">Contact</a>
+        <a href="#about">About me</a>
+      </nav>
 
     </header>
-
-      <nav class="nav">
-        <a href="#contact">Contact</a>
-        <a href="#biography">Biography</a>
-      </nav>
-    
     <main>
-      <img id="image" src="https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg" alt="Desk Set up">
-
-      <nav>
+      <section aria-labelledby="interests-title">
         
-        <h2>Interests</h2>
+        <h2 id="interests-title">Interests</h2>
         
         <ul class="interests">
           <li>Writing</li>
@@ -34,7 +37,58 @@
           <li>Building</li>
         </ul>
 
-      </nav>
+      </section>
+
+      <section aria-labelledby="skills-title">
+        
+        <h2 id="skills-title">Skills</h2>
+        
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Design</li>
+        </ul>
+
+      </section>
+
+      <section id="contact" aria-label="contact"> 
+      
+        <h2 class="contact-title">Contact</h2>
+
+        <address>
+
+          Nummer: 000000000000 
+          Email: <a href="mailto:chahine@live.de">chahine@live.de</a>
+        
+        </address>
+      
+      </section>
+
+      <section aria-labelledby="links-title">
+        <h2 id="links-title">Links</h2>
+
+        <ul>
+          <li><a href="https://github.com/">GitHub</a></li>
+          <li><a href="https://codepen.io/">CodePen</a></li>
+          <li><a href="https://linkedin.com/">LinkedIn</a></li>
+        </ul>
+
+      </section>
+
+      <article id="about">
+
+        <h2>About me</h2>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+      </article>
     </main>
+    <footer><p>Author: Yssra Chahine</p> <p><a href="mailto:chahine@live.de">contact me</a></p></footer>
   </body>
 </html>
